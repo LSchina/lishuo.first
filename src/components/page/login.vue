@@ -96,7 +96,15 @@ import Cookies from 'js-cookie';
       align-items: center;
       height: 100vh;
       width: 100%;
-      background-color: white;
+      background-image: url("https://img.picui.cn/free/2024/07/01/66825fc373fe3.jpg");
+      /* 使用背景混合模式，添加一个半透明的黑色覆盖层 */
+      background-blend-mode: multiply;
+      /* 覆盖层的颜色和透明度 */
+      background-color: rgba(0, 0, 0, 0.3);
+      /* 确保背景图片能够填充整个元素 */
+      background-size: cover;
+      background-position: center;
+      -webkit-background-size: contain;
     }
 
     .login-body {
@@ -104,7 +112,7 @@ import Cookies from 'js-cookie';
       width: 400px;
       height: 60vh;
       box-sizing: border-box;
-      background-color: #ececec;
+      background-color: rgba(236, 236, 236, 0.6);
       border-top-right-radius: 10px;
       border-bottom-right-radius: 10px;
     }

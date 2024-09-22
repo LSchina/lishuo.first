@@ -4,7 +4,7 @@
         <app-body>
           <div style="height: 66vh;margin-bottom: 20px;background-color: #f6f6f6;box-sizing: border-box;padding-bottom: 10px">
             <div style="width: 100%;height: 100%;">
-              <el-carousel :interval="5000" height="65vh" arrow="always">
+              <el-carousel autoplay initial-index="2" :interval="3000" height="65vh" arrow="always">
                 <el-carousel-item v-for="item in imageList" :key="item">
                   <el-image @click="goPush(item.url)" :src="item.value" style="width: 100%;height: 100%;" :fit="'fill'" />
                 </el-carousel-item>
@@ -196,62 +196,63 @@
 </script>
 
 <style scoped>
-    .idle-card {
-        height: 300px;
-        border: #eeeeee solid 1px;
-        margin-bottom: 15px;
-        cursor: pointer;
-    }
+.idle-card {
+  height: 300px;
+  border: #eeeeee solid 1px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 15px;
+}
 
-    .fenye {
-        display: flex;
-        justify-content: center;
-        height: 60px;
-        align-items: center;
-    }
+.fenye {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+}
 
-    .idle-title {
-        font-size: 18px;
-        font-weight: 600;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        margin: 10px;
-    }
+.idle-title {
+  font-size: 18px;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 10px;
+}
 
-    .idle-prive {
-        font-size: 16px;
-        color: red;
-    }
+.idle-prive {
+  font-size: 16px;
+  color: red;
+}
 
-    .idle-place {
-        font-size: 13px;
-        color: #666666;
-        float: right;
-        padding-right: 20px;
+.idle-place {
+  font-size: 13px;
+  color: #666666;
+  float: right;
+  padding-right: 20px;
 
-    }
+}
 
-    .idle-time {
-        color: #666666;
-        font-size: 12px;
-        margin: 0 10px;
-    }
+.idle-time {
+  color: #666666;
+  font-size: 12px;
+  margin: 0 10px;
+}
 
-    .user-nickname {
-        color: #999999;
-        font-size: 12px;
-        display: flex;
-        align-items: center;
-        height: 30px;
-        padding-left: 10px;
-    }
+.user-nickname {
+  color: #999999;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding-left: 10px;
+}
 
-    .user-info {
-        margin-top: 10px;
-        float: right;
-        padding: 5px 10px;
-        height: 30px;
-        display: flex;
-    }
+.user-info {
+  margin-top: 10px;
+  float: right;
+  padding: 5px 10px;
+  height: 30px;
+  display: flex;
+}
 </style>

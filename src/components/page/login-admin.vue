@@ -59,43 +59,57 @@
 </script>
 
 <style scoped>
-    .login-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        width: 100%;
-        background-color: #f1f1f1;
-    }
-    .login-body {
-        padding: 30px;
-        width: 300px;
-        height: 100%;
-    }
-    .login-title {
-        padding-bottom: 30px;
-        text-align: center;
-        font-weight: 600;
-        font-size: 20px;
-        color: #409EFF;
-        cursor: pointer;
-    }
-    .login-input {
-        margin-bottom: 20px;
-    }
-    .login-submit {
-        display: flex;
-        justify-content: center;
-    }
-    .sign-in-text {
-        color: #409EFF;
-        font-size: 16px;
-        text-decoration: none;
-        line-height:28px;
-    }
-    .other-submit{
-        display:flex;
-        justify-content: space-between;
-        margin-top: 10px;
-    }
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f1f1f1;
+  background-image: url("https://img.picui.cn/free/2024/09/22/66f007974d436.jpg");
+  -webkit-background-size: contain;
+  background-blend-mode: multiply;
+  /* 覆盖层的颜色和透明度 */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* 确保背景图片能够填充整个元素 */
+  background-size: cover;
+  background-position: center;
+}
+
+.login-body {
+  padding: 30px;
+  width: 300px;
+  height: 100%;
+}
+
+.login-title {
+  padding-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  color: #409EFF;
+  cursor: pointer;
+}
+
+.login-input {
+  margin-bottom: 20px;
+}
+
+.login-submit {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-in-text {
+  color: #409EFF;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 28px;
+}
+
+.other-submit {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
 </style>
