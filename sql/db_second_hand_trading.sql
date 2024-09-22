@@ -11,7 +11,7 @@
  Target Server Version : 80028
  File Encoding         : 65001
 
- Date: 22/09/2024 13:59:20
+ Date: 22/09/2024 20:36:43
 */
 
 SET NAMES utf8mb4;
@@ -84,9 +84,9 @@ CREATE TABLE `sh_carousel`  (
 INSERT INTO `sh_carousel` VALUES (1, 'https://www.iconfont.cn/', 'https://img.picui.cn/free/2024/07/01/66825fe4cdf3c.jpg', '2024-09-18 22:25:25', 1);
 INSERT INTO `sh_carousel` VALUES (2, 'https://www.iconfont.cn/', 'https://img.picui.cn/free/2024/07/01/66825fc373fe3.jpg', '2024-09-18 22:31:34', 1);
 INSERT INTO `sh_carousel` VALUES (3, 'https://picui.cn/', 'http://localhost:8081/image?imageName=file17268261042671002book1.jpg', '2024-09-20 09:55:05', 1);
-INSERT INTO `sh_carousel` VALUES (4, 'https://picui.cn/', 'http://localhost:8081/image?imageName=file1726933916829100322.jpg', '2024-09-21 15:51:58', 2);
-INSERT INTO `sh_carousel` VALUES (5, 'https://www.iconfont.cn/', 'https://bpic.588ku.com/back_origin_min_pic/19/10/22/beab832e6434f11169b13067073f806f.jpg', '2024-09-18 22:31:34', 2);
-INSERT INTO `sh_carousel` VALUES (6, 'https://www.iconfont.cn/', 'https://img.picui.cn/free/2024/07/01/66825fe4cdf3c.jpg', '2024-09-18 22:31:34', 2);
+INSERT INTO `sh_carousel` VALUES (4, 'https://picui.cn/', 'https://pic.nximg.cn/file/20230426/33460325_091544663124_2.jpg', '2024-09-21 15:51:58', 2);
+INSERT INTO `sh_carousel` VALUES (5, 'https://www.iconfont.cn/', 'http://localhost:8081/image?imageName=file1727007338675100222.jpg', '2024-09-22 12:15:40', 2);
+INSERT INTO `sh_carousel` VALUES (6, 'https://www.iconfont.cn/', 'https://img.zcool.cn/community/011fbd58ec3c55a8012049ef034bbc.jpg@3000w_1l_2o_100sh.jpg', '2024-09-18 22:31:34', 2);
 
 -- ----------------------------
 -- Table structure for sh_favorite
@@ -109,6 +109,7 @@ INSERT INTO `sh_favorite` VALUES (43, '2024-10-22 22:20:08', 4, 90);
 INSERT INTO `sh_favorite` VALUES (44, '2024-10-08 10:23:09', 3, 93);
 INSERT INTO `sh_favorite` VALUES (45, '2024-10-08 17:56:57', 3, 98);
 INSERT INTO `sh_favorite` VALUES (46, '2024-10-08 17:58:11', 3, 97);
+INSERT INTO `sh_favorite` VALUES (48, '2024-09-22 06:19:52', 2, 111);
 
 -- ----------------------------
 -- Table structure for sh_idle_item
@@ -296,9 +297,9 @@ CREATE TABLE `sh_user`  (
 -- Records of sh_user
 -- ----------------------------
 INSERT INTO `sh_user` VALUES (1, 'user', '123456', 'MZZ', 'http://localhost:8081/image?imageName=file168663143432210031.jpg', '2024-10-22 10:49:01', 0);
-INSERT INTO `sh_user` VALUES (2, '10086', '123456', '马小der', 'http://localhost:8081/image?imageName=file168663143432210030.png', '2024-10-22 11:47:19', 0);
-INSERT INTO `sh_user` VALUES (3, '10087', '123456', '夏目', 'http://localhost:8081/image?imageName=file17266341084651007eureka.jpg', '2024-10-22 11:47:30', 0);
-INSERT INTO `sh_user` VALUES (4, '10088', '123456', '下雨', 'http://localhost:8081/image?imageName=file17266342307341009new-bee-logo-3.png', '2024-10-22 11:53:15', 0);
+INSERT INTO `sh_user` VALUES (2, 'yang', '123456', '杨小灿', 'http://localhost:8081/image?imageName=file17270082533381002课.png', '2024-10-22 11:47:19', 0);
+INSERT INTO `sh_user` VALUES (3, 'ren', '123456', '任', 'http://localhost:8081/image?imageName=file17270083962981003teacher_01.jpg', '2024-10-22 11:47:30', 0);
+INSERT INTO `sh_user` VALUES (4, 'zhang', '123456', '张', 'http://localhost:8081/image?imageName=file17266342307341009new-bee-logo-3.png', '2024-10-22 11:53:15', 0);
 INSERT INTO `sh_user` VALUES (5, '13011110004', '123456', 'user4', 'http://localhost:8081/image?imageName=file16600445641151003109951165625541004.jpg', '2024-10-22 12:21:50', 1);
 INSERT INTO `sh_user` VALUES (6, '13011110005', '123456', 'user5', 'http://localhost:8081/image?imageName=file16600445641151003109951165625541004.jpg', '2024-10-22 12:22:33', 1);
 INSERT INTO `sh_user` VALUES (7, '13011110006', '123456', 'user6', 'http://localhost:8081/image?imageName=file16600445641151003109951165625541004.jpg', '2024-10-22 12:23:15', 0);

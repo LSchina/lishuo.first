@@ -18,4 +18,4 @@ baseUrl: http://localhost:8081
 mybatis:
     mapperLocations: classpath:mapper/*.xml
     typeAliasesPackage: com.second.hand.trading.server.model
-userFilePath: D:\springboot+vue\J1校园二手交易平台\springboot+vue校园二手交易平台\pic
+userFilePath: D:\springboot+vue\J1校园二手交易平台\springboot+vue校园二手交易平台\项目源码\second-hand goods-trading -back\pic
