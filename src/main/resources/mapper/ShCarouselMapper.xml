@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.second.hand.trading.server.dao.ShCarouselMapper">
+
+    <resultMap id="BaseResultMap" type="com.second.hand.trading.server.model.ShCarousel">
+            <result property="id" column="id" jdbcType="INTEGER"/>
+            <result property="url" column="url" jdbcType="VARCHAR"/>
+            <result property="value" column="value" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,url,value
+    </sql>
+    <select id="loginList" resultType="com.second.hand.trading.server.model.ShCarousel">
+        select *
+        from sh_carousel where type = '1';
+    </select>
+    <select id="indexList" resultType="com.second.hand.trading.server.model.ShCarousel">
+        select *
+        from sh_carousel where type = '2';
+    </select>
+    <select id="getList" resultType="com.second.hand.trading.server.model.ShCarousel"></select>
+</mapper>

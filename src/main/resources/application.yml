@@ -1,0 +1,21 @@
+server:
+    port: 8081
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        password: lishuo521
+        url: jdbc:mysql://localhost:3306/db_second_hand_trading?serverTimezone=UTC&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT&allowPublicKeyRetrieval=true&useSSL=false
+        username: root
+    jackson:
+        date-format: yyyy-MM-dd HH:mm:ss
+        time-zone: GMT+8
+    servlet:
+        multipart:
+            enabled: true
+            max-file-size: 200MB
+            max-request-size: 200MB
+baseUrl: http://localhost:8081
+mybatis:
+    mapperLocations: classpath:mapper/*.xml
+    typeAliasesPackage: com.second.hand.trading.server.model
+userFilePath: D:\springboot+vue\J1校园二手交易平台\springboot+vue校园二手交易平台\pic
